@@ -14,3 +14,7 @@ Your users should be able to:
 - Click on a country to see more detailed information on a separate page
 - Click through to the border countries on the detail page
 - Toggle the color scheme between light and dark mode _(optional)_
+
+
+https://user-images.githubusercontent.com/99580663/209844399-6e857e2a-4ce3-4769-b487-f0ca37032a3a.mp4
+
