@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta name="color-scheme" content="dark light" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search your country</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-county">
+        <h1>Where in the world?</h1>
+        <h4 id="change-mode"><i class="fa-regular fa-moon"></i>Dark Mode</h4>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="search-filter">
+        <div class="search-div">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            id="search-country"
+            type="text"
+            placeholder="Search for a country..."
+          />
+        </div>
+        <div class="select-me">
+          <div id="select-field">
+            <p id="select-text">Filter by Region..</p>
+            <i class="fa-solid fa-chevron-down arrow-icon"></i>
+          </div>
+          <ul class="select-ul">
+            <li>All Region</li>
+            <li>Africa</li>
+            <li>America</li>
+            <li>Asia</li>
+            <li>Europ</li>
+            <li>Oceania</li>
+          </ul>
+        </div>
+      </div>
+      <!-- API data formated -->
+      <section class="card-section">
+        <div class="card-flex"></div>
+      </section>
+    </div>
+
+    <section class="full-data-section show-container">
+      <div class="full-data-container">
+        <div class="back-btn">
+          <button id="btn-back">
+            <i class="fa-solid fa-arrow-left"></i> Back
+          </button>
+        </div>
+        <div class="full-data-div"></div>
+      </div>
+    </section>
+    <script defer src="script.js"></script>
+  </body>
+</html>
